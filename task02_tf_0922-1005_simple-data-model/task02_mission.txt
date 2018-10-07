@@ -1,0 +1,23 @@
+以下是第2段工作安排，请留底。
+简述：简单数据模型
+
+积分：8
+
+内容：
+
+0. 从以下链接下载HIGGS数据集和SUSY数据集 https://archive.ics.uci.edu/ml/datasets.html?format=&task=&att=&area=&numAtt=&numIns=&type=&sort=instDown&view=table
+
+1. 在 Linux 下配置 TensorFlow。
+
+2. 对以上两个数据集，分别训练一个 多层神经元（multilayer perceptron） 模型，要求至少两个隐藏层，策略使用整批梯度下降 （batch gradient descent），网络结构和其余设置不限，参考资料：
+https://www.deeplearningbook.org
+https://www.tensorflow.org/tutorials/
+训练时使用整个训练集，无需进行交叉验证（cross validation）。
+
+3. 将每次参数（weights）更新后的训练误差描点做图，横轴为更新次数，纵轴为误差，观察并用文字描述下降趋势。
+
+4. 关闭绘图模块，对训练过程计时，每个模型训练至收敛后，将迭代次数和训练时间（以秒为单位），写在名为 training-summary.txt 的文本文件中。
+
+要求：程序以GitHub保管，要求程序能直接读取原始数据。对每个数据集，描述网络结构，给出pdf矢量绘图、对误差下降趋势的文字描述以及计时文本。
+
+时限：9月27日17:00

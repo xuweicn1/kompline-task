@@ -1,0 +1,20 @@
+以下是第3段工作安排，请留底。
+
+简述：测温
+
+积分：12
+
+内容：
+
+0. 阅读参考资料：
+https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf
+http://www2.schneider-electric.com/resources/sites/SCHNEIDER_ELECTRIC/content/live/FAQS/239000/FA239836/ru_RU/5pt100sensoren_e.pdf
+
+1. 远程协助牛总，以HX711和Pt100为核心，恢复、调试测温电路。
+
+2. 教会牛总利用github远程协作，接手牛总代码，利用 SerialMeter （或加以修改）。编写一个名为 Thermometer 的类，要求 Thermometer 的 read() 方法返回温度（浮点数，单位摄氏度，范围0--200）。注意设计合理实验（可以利用热水），与牛总一起校准传感器和程序。
+
+要求：程序以GitHub保管，程序设计合理、校准精确。
+
+时限：10月14日17:00
+
